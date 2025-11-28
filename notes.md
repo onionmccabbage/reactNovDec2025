@@ -23,6 +23,7 @@ Friday
 - props and state
 - Always good practice
 - Performance
+- after tea: list and iterating (key), also real challenges and architect solution
 
 Editing vite.config.js for path, set port, joyUI ... imports...., base folder, export default, target proxy (for wether forecast)
 

@@ -2,7 +2,6 @@ import { useState } from 'react'
 import './App.css'
 // we do not qualify the module as .js, .ts, .jsx or .tsx
 import SubSection from './components/SubSection'
-import MyList from './components/MyList'
 
 function App() {
   // here are the stateful data members of this components
@@ -32,8 +31,7 @@ function App() {
       <SubSection c={count+1} h={appHandleEvent}  /> 
       {/* we can inject literal values like this */}
       <SubSection c='not available' h={appHandleEvent} /> 
-    <hr/>
-    <MyList />
+
     </>
   )
 }
