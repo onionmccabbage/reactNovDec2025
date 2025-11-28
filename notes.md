@@ -4,7 +4,7 @@ React
 28 Nov also 2, 3 Dec
  9:30
 11:00
-12:30
+12:30-1:30
  3:00
  4:30
 
@@ -24,9 +24,11 @@ Friday
 - Always good practice
 - Performance
 
-Editing vi te.config.js for path, set port, joyUI ... imports...., base folder, export default, target proxy (for wether forecast)
+Editing vite.config.js for path, set port, joyUI ... imports...., base folder, export default, target proxy (for wether forecast)
 
 Tuesday
+- building a production server project
+- deply to testing server then deploy to production
 - Using UI libraries
 
 Wednesday
