@@ -4,7 +4,14 @@ import './App.css'
 import SubSection from './components/SubSection'
 
 function App() {
+  // here are the stateful data members of this components
   const [count, setCount] = useState(0)
+  let c = 1 // try to avoid this
+  // declare event handler and other functions
+  function appHandleEvent(){
+    // the set methods of React destroy the old constant and replace it with a new one
+    setCount( count += 1 )
+  }
 
   return (
     // <> is a 'fragment' to contain ALL other code
@@ -18,7 +25,14 @@ function App() {
         <p>Count is {count}</p>
       </section>
       {/* we may render any other compoents */}
-      <SubSection /> 
+      {/* any JS expression will be evaluated within the {} */}
+      <SubSection c={2+3} h={appHandleEvent}  /> 
+      {/* if we choose we may pass props and methods in to ANY jsx tag */}
+      <SubSection c={count} h={appHandleEvent} /> 
+      <SubSection c={count+1} h={appHandleEvent}  /> 
+      {/* we can inject literal values like this */}
+      <SubSection c='not available' h={appHandleEvent} /> 
+
     </>
   )
 }

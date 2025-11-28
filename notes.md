@@ -8,7 +8,6 @@ React
  3:00
  4:30
 
-q - how to get a command prompt in VS2022?
 Node 20.17
 Node 20.19 <<
 
@@ -18,9 +17,10 @@ Friday
 - Welcome
 - Check setup
 - what version of React 18.2.0
--    npm list react within a REact project
+-    npm list react (within a React project)
 - plan what to do
 - React: what, how
+- props and state
 - Always good practice
 - Performance
 
@@ -30,6 +30,8 @@ Tuesday
 - building a production server project
 - deply to testing server then deploy to production
 - Using UI libraries
+- brief TS overview...
+  
 
 Wednesday
 - Build and config
