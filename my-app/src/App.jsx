@@ -3,6 +3,7 @@ import './App.css'
 // we do not qualify the module as .js, .ts, .jsx or .tsx
 import SubSection from './components/SubSection'
 import MyList from './components/MyList'
+import ArtistList from './components/ArtistList'
 
 function App() {
   // here are the stateful data members of this components
@@ -34,6 +35,7 @@ function App() {
       <SubSection c='not available' h={appHandleEvent} /> 
     <hr/>
     <MyList />
+    <ArtistList />
     </>
   )
 }

@@ -23,19 +23,22 @@ Friday
 - props and state
 - Always good practice
 - Performance
-- after tea: list and iterating (key), also real challenges and architect solution
 
 Editing vite.config.js for path, set port, joyUI ... imports...., base folder, export default, target proxy (for wether forecast)
 
 Tuesday
+- after tea: list and iterating (key), also real challenges and architect solution
 - building a production server project
+- architecture for non-trivial apps
+- where does the data come from
 - deply to testing server then deploy to production
 - Using UI libraries
 - brief TS overview...
-  
+- routing?????
 
 Wednesday
 - Build and config
+- make sure we end tight on time
 
 
 My shared repo: https://github.com/onionmccabbage/reactNovDec2025
