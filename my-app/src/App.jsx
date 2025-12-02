@@ -4,6 +4,7 @@ import './App.css'
 import SubSection from './components/SubSection'
 import MyList from './components/MyList'
 import ArtistList from './components/ArtistList'
+import TradesList from './components/TradesList'
 
 function App() {
   // here are the stateful data members of this components
@@ -36,6 +37,7 @@ function App() {
     <hr/>
     <MyList />
     <ArtistList />
+    {/* <TradesList /> */}
     </>
   )
 }

@@ -13,16 +13,15 @@ function MyList() {
     // NB lets add a button to change one of these qty (deer increment)
     // consider: how would we access the deer qty????
     // dq = animals[3]['qty'] += 1 // NEVER do this in React
-function changeDeerQty(whichAnimal=3){
+function changeAnimalQty(whichAnimal=3){
     console.log(whichAnimal)
     // we are not able to mutate the 'animals' constant, 
     // so instead we must create brand new version of our 'animals' constant
     //  new array, spread the old array to populate our new array, 
     // then use expression to change a member of the old array
-    setAnimals( [...animals], animals[whichAnimal]['qty'] += 1 )
-}
-
-    // declare handlers and other functions
+    setAnimals( [...animals], animals[whichAnimal]['qty'] += 1, animals[0]['cost'] +=1 )
+    // we could put it all in our signle
+}    // declare handlers and other functions
 
     // we may write pieces of JSX (which looks like HTML) for use in our page
     const creatures = <>
@@ -40,14 +39,18 @@ function changeDeerQty(whichAnimal=3){
         return (
             <>
                 {/* we may return ANY tag we like but always provide a unique key */}
-                <li key={a.id}>Creature {a.name} {a.qty} &EUR{a.price}</li>
+                <li key={a.id}>Creature {a.name} {a.qty} {a.cost}</li>
                 {/* we can jump into classic JS using {} */}
                 {/* <button className='' onClick={changeDeerQty}>{a.name}</button> */}
-                <button className='' onClick={ ()=>{
-                    changeDeerQty(a.id) // same as a.name
+                
+                <button onClick={ ()=>{
+                    changeAnimalQty(a.id) 
                 } }>{a.name}</button>
-                {/* we can write absolutely anythnig from HTML here
-                all tags, all atributes, all modifiers
+
+
+
+                {/* we can write absolutely anything from HTML here
+                all tags, all attributes, all modifiers
                 EXCEPT css 'class' instead we write className='' */}
             </>
         ) // NB in React we must put round brackets for a return rendition
@@ -76,13 +79,13 @@ function changeDeerQty(whichAnimal=3){
         <>
             <aside>
                 <h3>Here are some creatures</h3>
-                <ul>
+                {/* <ul>
                     {creatures}
-                </ul>
-                <ol>
+                </ul> */}
+                {/* <ol>
                     {listItems}
                     {creatureList}
-                </ol>
+                </ol> */}
             </aside>
         </>
     )

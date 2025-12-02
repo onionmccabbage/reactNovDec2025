@@ -38,6 +38,9 @@ Tuesday
 - understanding dev-time: so good it renders twice
 - building a production server project
 - architecture for non-trivial apps
+- After Lunch
+- tidy up map example (trades)
+- see ongoig project...
 - where does the data come from?
 - modern ES syntx: back-ticks, functions, let/const, rest/spread
 - useState for non-trivial data structures
