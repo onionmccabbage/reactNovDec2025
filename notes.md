@@ -32,16 +32,20 @@ Environment set-up
 - dev-side can start and debug
 
 Tuesday
-- quick consolidation of what we did
-- list and iterating (key), also real challenges and architect solution
+> quick consolidation of what we did
+> list and iterating (key)
+- also real challenges and architect solution
 - conditional rendering
 - understanding dev-time: so good it renders twice
 - building a production server project
-- architecture for non-trivial apps
+> architecture for non-trivial apps
 - After Lunch
-- tidy up map example (trades)
-- see ongoig project...
+> tidy up map example (trades)
+- see ongoing project...
 - where does the data come from?
+  - how ECMAScript consumes remote data from an API server
+  - incorporating this into Ract with useEffect()
+  - along the way we will meet back-tick syntax
 - modern ES syntx: back-ticks, functions, let/const, rest/spread
 - useState for non-trivial data structures
 - deploy to testing server then deploy to production
