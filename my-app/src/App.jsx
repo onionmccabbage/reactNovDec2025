@@ -37,7 +37,7 @@ function App() {
     <hr/>
     <MyList />
     <ArtistList />
-    {/* <TradesList /> */}
+    <TradesList />
     </>
   )
 }
