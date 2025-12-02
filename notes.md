@@ -42,11 +42,16 @@ Tuesday
 - After Lunch
 > tidy up map example (trades)
 - see ongoing project...
-- where does the data come from?
-  - how ECMAScript consumes remote data from an API server
-  - incorporating this into Ract with useEffect()
-  - along the way we will meet back-tick syntax
-- modern ES syntx: back-ticks, functions, let/const, rest/spread
+> where does the data come from?
+  > how ECMAScript consumes remote data from an API server
+  > using fetch two ways: using async-await also fetch.then.then
+  > incorporating this into React with useEffect()
+  > along the way we will meet back-tick syntax
+- homework
+  - get your weather server working, so it returns some JSON
+  - you will know it is working when you can browse to it and see some JSON
+  - after that, wire up the React to useEffect and grab you JSON data
+- modern ES syntax: back-ticks, functions, let/const, rest/spread
 - useState for non-trivial data structures
 - deploy to testing server then deploy to production
 - Using UI libraries

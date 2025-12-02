@@ -42,3 +42,11 @@ console.log(demoRest(3,4) )// NB these can be of any data type
 console.log(demoRest(3,4,5))
 console.log(demoRest(3,4,5,6))
 console.log(demoRest(3,4,5,6,7))
+
+// back-tick string interpolation
+h = `hello`
+w = `world`
+s = ` `
+n = 42
+// within back-ticks we may intect ANYTHING using ${}
+console.log( `${h}${s}${w} ${n}` ) // hello world 42

@@ -5,6 +5,7 @@ import SubSection from './components/SubSection'
 import MyList from './components/MyList'
 import ArtistList from './components/ArtistList'
 import TradesList from './components/TradesList'
+import WeatherDisplay from './components/WeatherDisplay'
 
 function App() {
   // here are the stateful data members of this components
@@ -23,6 +24,7 @@ function App() {
       {/* Careful: all React tag are InitialCap, all html tags MUST be lower case  */}
       <section>
         <h3>Welcome to React</h3>
+        <WeatherDisplay />
         {/* we may render aNY value into the pge using {} */}
         <p>Count is {count}</p>
       </section>
