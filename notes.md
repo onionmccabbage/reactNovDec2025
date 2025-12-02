@@ -59,6 +59,8 @@ Tuesday
 - brief TS overview...
 - routing?????
 
+Tutorial: Create an ASP.NET Core app with React in Visual Studio
+
 Wednesday
 - Build and config
 - make sure we end tight on time

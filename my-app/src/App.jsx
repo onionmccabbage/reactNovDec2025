@@ -5,7 +5,7 @@ import SubSection from './components/SubSection'
 import MyList from './components/MyList'
 import ArtistList from './components/ArtistList'
 import TradesList from './components/TradesList'
-import WeatherDisplay from './components/WeatherDisplay'
+import WeatherDisplay from './components/WeatherDisplay2'
 
 function App() {
   // here are the stateful data members of this components
