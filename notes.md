@@ -2,16 +2,22 @@ React
 =====
 
 28 Nov also 2, 3 Dec
- 9:30
-11:00
-12:30-1:30
- 3:00
- 4:30
+ 9:30 start
+11:00 coffe break
+12:30-1:30 lunch
+ 3:00 tea break
+ 4:30 end
 
 Node 20.17
 Node 20.19 <<
 
 Toby Dussek
+
+
+
+
+
+
 
 Friday
 - Welcome
@@ -27,11 +33,16 @@ Friday
 Editing vite.config.js for path, set port, joyUI ... imports...., base folder, export default, target proxy (for wether forecast)
 
 Tuesday
-- after tea: list and iterating (key), also real challenges and architect solution
+- quick consolidation of what we did
+- list and iterating (key), also real challenges and architect solution
+- conditional rendering
+- understanding dev-time: so good it renders twice
 - building a production server project
 - architecture for non-trivial apps
-- where does the data come from
-- deply to testing server then deploy to production
+- where does the data come from?
+- modern ES syntx: back-ticks, functions, let/const, rest/spread
+- useState for non-trivial data structures
+- deploy to testing server then deploy to production
 - Using UI libraries
 - brief TS overview...
 - routing?????

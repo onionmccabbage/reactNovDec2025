@@ -26,13 +26,12 @@ function MyList() {
     // we can use the JS 'map' function to iterate over any ordinal collection
     // map will apply a function to every member of our collection
     const creatureList = animals.map((a) => {
-        // this line (to retrun the JSX) was missing and therefor broke the code
-        return (
+
             <>
                 {/* we may return ANY tag we like but always provide a unique key */}
                 <li key={a.name}>Creature {a.name} {a.qty} &GBP{a.price}</li>
             </>
-        )
+
     })
     // nicked from online
     const products = [
