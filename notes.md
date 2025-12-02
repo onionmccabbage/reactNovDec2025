@@ -3,7 +3,7 @@ React
 
 28 Nov also 2, 3 Dec
  9:30 start
-11:00 coffe break
+11:00 coffee break
 12:30-1:30 lunch
  3:00 tea break
  4:30 end
@@ -12,11 +12,6 @@ Node 20.17
 Node 20.19 <<
 
 Toby Dussek
-
-
-
-
-
 
 
 Friday
@@ -32,6 +27,10 @@ Friday
 
 Editing vite.config.js for path, set port, joyUI ... imports...., base folder, export default, target proxy (for wether forecast)
 
+Environment set-up 
+- IIS web server to publish site
+- dev-side can start and debug
+
 Tuesday
 - quick consolidation of what we did
 - list and iterating (key), also real challenges and architect solution
@@ -44,6 +43,7 @@ Tuesday
 - useState for non-trivial data structures
 - deploy to testing server then deploy to production
 - Using UI libraries
+- re-paint on change: the virtual DOM
 - brief TS overview...
 - routing?????
 
