@@ -22,8 +22,9 @@ export default function ArtistList() {
             {artist.name}{' '}
             <button onClick={() => {
               setArtists(
+                // filter will only return those members of the array that meet a condition
                 artists.filter(a =>
-                  a.id !== artist.id
+                  a.id !== artist.id // we leave the ones that do not match the id of the one being deleted
                 )
               );
             }}>

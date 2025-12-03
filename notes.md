@@ -57,9 +57,10 @@ https://learn.microsoft.com/en-us/visualstudio/javascript/tutorial-asp-net-core-
 Wednesday
 > Using UI libraries MUI
 > Build and config
-- understanding dev-time: so good it renders twice
+> understanding dev-time: so good it renders twice
 - real challenges and architect solution
-- conditional rendering
+> clean-up useEffect (promises)
+> conditional rendering
 > building a production server project
 > deploy to testing server then deploy to production
 - brief TS overview...

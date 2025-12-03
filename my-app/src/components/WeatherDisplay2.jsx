@@ -21,6 +21,9 @@ function WeatherDisplay() {
                     throw new Error('Failed to fetch data');
                 }
                 const data = await response.json();
+                // we may wish to see the data in the browser console
+                // see https://react.dev/reference/react/StrictMode
+                console.log(data) // NB dev-mode will render this twice (to catch impure code)
                 setWeatherData(data);
             } catch (error) {
                 setError(error.message);
@@ -30,6 +33,9 @@ function WeatherDisplay() {
         getData()
 
         return () => {
+            // Obviate (means get rid of) the problem of multiple requests being serviced
+            // we write code to DELETE every instance of a request when it has been used
+            // doCleanUp() // this would be a function to kill the current server request (reject any otehr responses)
             'we should clean up the connection here' // 
         };
     }, [city]); // any dependencies goes here in an array
