@@ -31,10 +31,6 @@ Environment set-up
 > IIS web server to publish site
 > dev-side can start and debug
 
-Visual Studio Notes:
-- when making  proj, close the 
-
-
 Tuesday
 > quick consolidation of what we did
 > list and iterating (key)
@@ -47,10 +43,10 @@ Tuesday
   > using fetch two ways: using async-await also fetch.then.then
   > incorporating this into React with useEffect()
   > along the way we will meet back-tick syntax
-- homework
-  - get your weather server working, so it returns some JSON
-  - you will know it is working when you can browse to it and see some JSON
-  - after that, wire up the React to useEffect and grab you JSON data
+> homework
+  > get your weather server working, so it returns some JSON
+  > you will know it is working when you can browse to it and see some JSON
+  > after that, wire up the React to useEffect and grab you JSON data
 > modern ES syntax: back-ticks, functions, let/const, rest/spread
 > useState for non-trivial data structures
 > re-paint on change: the virtual DOM
@@ -60,14 +56,21 @@ https://learn.microsoft.com/en-us/visualstudio/javascript/tutorial-asp-net-core-
 
 Wednesday
 > Using UI libraries MUI
-- Build and config
+> Build and config
 - understanding dev-time: so good it renders twice
 - real challenges and architect solution
 - conditional rendering
-- building a production server project
-- deploy to testing server then deploy to production
+> building a production server project
+> deploy to testing server then deploy to production
 - brief TS overview...
-- routing?????
+> routing????? see an example
+> server-side-rendering
 
 
 My shared repo: https://github.com/onionmccabbage/reactNovDec2025
+
+
+
+
+
+end of coure feedback: https://forms.office.com/e/1qPVkZ8adU
