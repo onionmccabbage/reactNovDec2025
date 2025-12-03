@@ -9,7 +9,7 @@ React
  4:30 end
 
 Node 20.17
-Node 20.19 <<
+Node 20.19 << minimum
 
 Toby Dussek
 
@@ -30,6 +30,10 @@ Editing vite.config.js for path, set port, joyUI ... imports...., base folder, e
 Environment set-up 
 > IIS web server to publish site
 > dev-side can start and debug
+
+Visual Studio Notes:
+- when making  proj, close the 
+
 
 Tuesday
 > quick consolidation of what we did
@@ -55,7 +59,7 @@ Tutorial: Create an ASP.NET Core app with React in Visual Studio
 https://learn.microsoft.com/en-us/visualstudio/javascript/tutorial-asp-net-core-with-react?view=visualstudio
 
 Wednesday
-- Using UI libraries
+> Using UI libraries MUI
 - Build and config
 - understanding dev-time: so good it renders twice
 - real challenges and architect solution

@@ -91,5 +91,4 @@ function changeAnimalQty(whichAnimal=3){
     )
 
 }
-// export default
 export default MyList
