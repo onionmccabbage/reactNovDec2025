@@ -15,33 +15,29 @@ Toby Dussek
 
 
 Friday
-- Welcome
-- Check setup
-- what version of React 18.2.0
--    npm list react (within a React project)
-- plan what to do
-- React: what, how
-- props and state
-- Always good practice
-- Performance
+> Welcome
+> Check setup
+> what version of React?
+>    npm list react (within a React project)
+> plan what to do
+> React: what, how
+> props and state
+> Always good practice
+> Performance
 
 Editing vite.config.js for path, set port, joyUI ... imports...., base folder, export default, target proxy (for wether forecast)
 
 Environment set-up 
-- IIS web server to publish site
-- dev-side can start and debug
+> IIS web server to publish site
+> dev-side can start and debug
 
 Tuesday
 > quick consolidation of what we did
 > list and iterating (key)
-- also real challenges and architect solution
-- conditional rendering
-- understanding dev-time: so good it renders twice
-- building a production server project
 > architecture for non-trivial apps
-- After Lunch
+> After Lunch
 > tidy up map example (trades)
-- see ongoing project...
+> see ongoing project...
 > where does the data come from?
   > how ECMAScript consumes remote data from an API server
   > using fetch two ways: using async-await also fetch.then.then
@@ -51,20 +47,23 @@ Tuesday
   - get your weather server working, so it returns some JSON
   - you will know it is working when you can browse to it and see some JSON
   - after that, wire up the React to useEffect and grab you JSON data
-- modern ES syntax: back-ticks, functions, let/const, rest/spread
-- useState for non-trivial data structures
-- deploy to testing server then deploy to production
-- Using UI libraries
-- re-paint on change: the virtual DOM
-- brief TS overview...
-- routing?????
+> modern ES syntax: back-ticks, functions, let/const, rest/spread
+> useState for non-trivial data structures
+> re-paint on change: the virtual DOM
 
 Tutorial: Create an ASP.NET Core app with React in Visual Studio
 https://learn.microsoft.com/en-us/visualstudio/javascript/tutorial-asp-net-core-with-react?view=visualstudio
 
 Wednesday
+- Using UI libraries
 - Build and config
-- make sure we end tight on time
+- understanding dev-time: so good it renders twice
+- real challenges and architect solution
+- conditional rendering
+- building a production server project
+- deploy to testing server then deploy to production
+- brief TS overview...
+- routing?????
 
 
 My shared repo: https://github.com/onionmccabbage/reactNovDec2025
